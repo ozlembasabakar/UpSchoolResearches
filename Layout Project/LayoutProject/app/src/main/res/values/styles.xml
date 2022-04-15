@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StartEntryTitle">
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">#2C2B47</item>
+        <item name="android:textSize">39sp</item>
+    </style>
+
+    <style name="EntryButtonStyle">
+        <item name="android:backgroundTint">#2C2B47</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="EntrySubTitle">
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textColor">#B9B8C6</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="EntryTitle" parent="StartEntryTitle" />
+
+    <style name="input_style">
+        <item name="android:background">@drawable/ic_start_input_background</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColor">#2C2B47</item>
+        <item name="android:textColorHint">#2C2B47</item>
+    </style>
+
+    <style name="monthly_payment_perMonth">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+</resources>
