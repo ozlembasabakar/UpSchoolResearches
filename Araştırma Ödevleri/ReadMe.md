@@ -3,6 +3,7 @@
 - [Araştırma Projesi 1 - Lateinit](https://github.com/ozlembasabakar/UpSchoolAndroidDevelopmentBootcamp/blob/main/Ara%C5%9Ft%C4%B1rma%20%C3%96devleri/lateinit.docx)
 - [Araştırma Projesi 2 - Tools Namespace](https://github.com/ozlembasabakar/UpSchoolAndroidDevelopmentBootcamp/blob/main/Ara%C5%9Ft%C4%B1rma%20%C3%96devleri/tools%20namespaces.docx)
 - [Araştırma Projesi 3 - fontFamily](https://github.com/ozlembasabakar/UpSchoolAndroidDevelopmentBootcamp/blob/main/Ara%C5%9Ft%C4%B1rma%20%C3%96devleri/fontFamily.docx)
+- [Araştırma Projesi 4 - objectAnimator vs. valueAnimator](https://github.com/ozlembasabakar/UpSchoolAndroidDevelopmentBootcamp/blob/main/Ara%C5%9Ft%C4%B1rma%20%C3%96devleri/fontFamily.docx)
 
 ### <a name="1"></a> Araştırma Projesi 1
 
@@ -94,3 +95,13 @@ textView.typeface = typeface
         android:font="@font/lobster_italic" />
 </font-family>
 ```
+
+## <a name="3"></a> Araştırma Projesi 4
+
+- Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
+
+### <a name="3"></a> Cevap 4
+
+ObjectAnimator ValueAnimator(animation)’ın alt sınıfıdır. Animation orjinal olarak Android ile birlikte gelen daha eski bir API’dır. Ve daha eski cihazları destekler. ObjectAnimator (ve diğer PropertyAnimation’lar) ValueAnimator’a göre daha yeni ve tercih edilen animasyon türleridir. 
+
+Hedef nesnelerde özelliklerin canlandırılması için destek sağlar. Bu sınıfın yapıcıları, canlandırılacak olan hedef nesnenin yanı sıra canlandırılacak özelliğin adını tanımlamak için parametreler alır. Uygun set/get işlevleri daha sonra dahili olarak belirlenir ve animasyon, özelliği canlandırmak için gerektiğinde bu işlevleri çağırır. ValueAnimator ile aralarındaki fark ise özelliklerin canlandırılmasındaki ayarlanma kısmında oluşmaktadır. 
